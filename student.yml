@@ -1,5 +1,5 @@
 ---
-studentsdetails:
+studentsdetails: all
   - name: sai
     gender: male
     mblno: 7731999124
