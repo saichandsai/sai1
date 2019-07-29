@@ -1,10 +1,8 @@
 ---
  studentsdetails:
-
   - name: sai
     gender: male
     mblno: 7731999124
-
   - name: sony
     gender: female
     mblno: 9701860909
