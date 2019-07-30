@@ -9,4 +9,4 @@
       - name: start webserver   
         service: 
          name: apache2
-         state: reload       
+         state: reloaded       
