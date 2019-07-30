@@ -1,7 +1,8 @@
 ---
  - hosts: all
-   name:
-      - apple
-      - mango
-      - orange
+   fruits:
+    - name:       
+    - apple
+    - mango
+    - orange
         
