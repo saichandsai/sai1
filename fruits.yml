@@ -1,0 +1,10 @@
+---
+ - hosts: all
+   tasks: 
+   - name: fruits names
+     fruits: 
+     - apple
+     - mango
+     - orange
+     - name: fruits
+       ping:
