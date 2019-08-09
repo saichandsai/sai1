@@ -6,10 +6,10 @@
     apt:
      name: "{{ javaonubuntu }}"
      state: present
-    when: ansible_os_family =="Debian"
+    when: ansible_os_family== "Debian"
 
   - name: install java on amazon node
     yum:
      name: "{{ javaonamazon }}"
      state: present
-    when: ansible_os_family =="RedHat"      
+    when: ansible_os_family== "RedHat"      
