@@ -1,9 +1,6 @@
 ---
 - hosts: webservers
   become: yes
-  vars:
-    javaonubuntu: openjdk-8-jre
-    javaonamazon: java-1.8.0-openjdk
   tasks:
   - name: install java on ubuntu16 node
     apt:
