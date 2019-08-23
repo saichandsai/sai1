@@ -1,2 +1,6 @@
 ---
 # handlers file for tomcat7
+- name: StartTomcat
+  service:
+    name: tomcat
+    state: started
