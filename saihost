@@ -1,5 +1,8 @@
+[master
+172.31.84.222]
+
 [webservers]
-172.31.84.222
+
 172.31.39.243
 
 [redhatservers]
