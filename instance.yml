@@ -1,0 +1,17 @@
+---
+ - hosts: localhost
+   become: yes
+   tasks:  
+   - name: creating ansible node
+     ec2:
+      key_name: vir1.pem
+      instance_type: t2.micro
+      image: ami-0aec15c22f265e8fe
+      wait: yes
+      region: us-east-1c
+      group: saigp1
+      count: 2
+      vpc_subnet-id: subnet-081ef845
+      assingn_public-ip: yes
+      instance_tags: 
+        name: play-ansi-node
