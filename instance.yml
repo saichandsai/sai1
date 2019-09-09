@@ -12,6 +12,6 @@
       group: saigp1
       count: 2
       vpc_subnet_id: subnet-081ef845
-      assingn_public_ip: yes
+      assign_public_ip: yes
       instance_tags: 
         name: play-ansi-node
