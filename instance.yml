@@ -8,7 +8,7 @@
       instance_type: t2.micro
       image: ami-099a857ce04991ae1
       wait: yes
-      region: us-east-1c
+      region: us-east-1
       group: saigp1
       count: 2
       vpc_subnet_id: subnet-081ef845
