@@ -1,5 +1,5 @@
 ---
- - hosts: localhost
+ - hosts: all
    become: yes
    tasks:  
    - name: creating ansible node
@@ -11,7 +11,7 @@
       region: us-east-1c
       group: saigp1
       count: 2
-      vpc_subnet-id: subnet-081ef845
+      vpc_subnet_id: subnet-081ef845
       assingn_public-ip: yes
       instance_tags: 
         name: play-ansi-node
